@@ -20,6 +20,7 @@ Quindi, è importante sottolineare che Typescript non introduce nuovi costrutti 
 
 ![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/1fb6cdad-467e-46df-92f9-23788849a621)
 
-Javascript permette alcune stranezze nel nostro codice, questo accade perché manca un sistema di sicurezza dei tipi. In realtà, avrebbe dovuto segnalare immediatamente, durante la fase di scrittura, che non possiamo sommare una stringa con un numero.
+Javascript permette alcune stranezze nel nostro codice, questo accade perché manca un sistema di sicurezza dei tipi. In realtà, avrebbe dovuto segnalare immediatamente, durante la fase di scrittura, che non possiamo sommare una stringa con un numero. Typescript semplicemente ci permette di prevenire queste stranezze.
+
 
 
