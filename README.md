@@ -70,7 +70,7 @@ Durante questo testo, ci concentreremo sulle fondamenta e i concetti principali 
 
 # 3 - Hello Typescript
 
-## 3.1 - Il nostro primo Hello World
+## 3.1 - Il nostro primo file `.ts`
 
 Ora che abbiamo completato con successo l'installazione di TypeScript sul nostro sistema, possiamo finalmente creare il nostro primo file TypeScript. Per farlo, creiamo una nuova cartella nel nostro progetto, il nome non è importante.
 
@@ -89,6 +89,28 @@ Creiamo anche un paio di variabili. Per esempio, possiamo creare una variabile c
 
 ![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/2ac47ead-9de8-4e32-8093-6018db361104)
 
-Ma attenzione! Il codice che abbiamo scritto non può essere eseguito direttamente in TypeScript. Tuttavia, grazie all'installazione di TypeScript che abbiamo completato in precedenza, possiamo superare questa limitazione. Utilizzando il comando tsc nome_del_tuo_file.ts, possiamo convertire automaticamente il nostro codice TypeScript in un file JavaScript. In questo modo, otteniamo una versione del nostro codice che può essere eseguita correttamente.
+## 3.2 - Da `.ts` a `.js`
+Attenzione! Il codice che abbiamo scritto non può essere eseguito direttamente in TypeScript. Tuttavia, grazie all'installazione di TypeScript che abbiamo completato in precedenza, possiamo superare questa limitazione. Utilizzando il comando `tsc nome_del_tuo_file.ts`, possiamo convertire automaticamente il nostro codice TypeScript in un file JavaScript. In questo modo, otteniamo una versione del nostro codice che può essere eseguita correttamente.
 
-L'unico vantaggio di TypeScript è che ci fornisce suggerimenti utili per individuare eventuali errori nel nostro codice, come problemi con le variabili o la sintassi. Ne parleremo in modo più dettagliato in seguito.
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/aabc1bbc-60ff-41ed-bcb5-efd6fe2f5a73)
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/c0daa251-d48b-4c1b-b9b0-e4d881294746)
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/e65a7355-2c89-44e0-a4d8-bd537496a235)
+
+Questo è tutto ciò che fa TypeScript. Converte il tuo codice TypeScript in JavaScript, indipendentemente dal progetto che stai utilizzando. Questa è l'implementazione esatta di TypeScript. Ora, al momento, potresti notare che ci viene segnalato un errore.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/45c5c286-1868-48d8-9bdb-22469c3db6c9)
+
+Studieremo in modo approfondito in seguito perché riceviamo questi dettagli sull'errore. Ad esempio, se proviamo a utilizzare `console.log` per stampare "user.email", ma "email" non è una chiave presente, TypeScript ci segnalerà immediatamente un errore già durante la fase di scrittura del codice. Questo ci aiuta a individuare e correggere gli errori in anticipo, rendendo il nostro codice più robusto e affidabile.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/08a4771c-a971-45bb-926e-e400dbb15319)
+
+L'unico vantaggio che otteniamo è che TypeScript ci protegge da alcuni errori che potremmo commettere se scrivessimo solo codice JavaScript. Tuttavia, è importante sottolineare che TypeScript è solo uno strumento di sviluppo, un "avvolgimento" intorno a JavaScript per semplificarci la vita e renderla più sicura. Non c'è nulla che ci impedisca di eseguire il codice nonostante gli errori segnalati. Se eseguiamo il comando, vedremo che il codice funziona ancora, ma TypeScript ci avviserà dell'errore. Questo ci permette di correggere e migliorare il nostro codice durante 
+la fase di scrittura.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/89b4b8f9-5bab-4052-82f1-ea4b7678a3a0)
+
+
+
+
+
+
