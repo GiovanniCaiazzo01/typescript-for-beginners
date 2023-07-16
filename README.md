@@ -53,7 +53,7 @@ L'installazione globale ti permetterà di creare file di base e di capire le nuo
 
 Inizieremo concentrandoci sull'installazione globale, in modo da poter creare dei file di base e comprendere le nuove funzionalità di TypeScript. Successivamente, passeremo alla sezione del progetto, dove vedremo come configurare le impostazioni di TypeScript in modo da poter produrre un codice migliore.
 
-## 2.1 - Installazione 
+## 2.2 - Installazione 
 
 Apriamo il nostro terminale ed eseguiamo il comando corrente: `sudo npm install -g typescript`
 
@@ -68,3 +68,27 @@ Per eseguire il comando TSC, possiamo aprire il terminale e digitare "TSC" segui
 
 Durante questo testo, ci concentreremo sulle fondamenta e i concetti principali di TypeScript, quindi qualsiasi versione di TypeScript funzionerà bene, non c'è motivo di preoccuparsi. Questi sono gli elementi fondamentali, le basi su cui si basa TypeScript. Sono concetti che non cambiano nel linguaggio stesso. Quindi, anche se stai utilizzando una versione precedente di TypeScript, non dovresti preoccuparti. I concetti fondamentali rimangono gli stessi.
 
+# 3 - Hello Typescript
+
+## 3.1 - Il nostro primo Hello World
+
+Ora che abbiamo completato con successo l'installazione di TypeScript sul nostro sistema, possiamo finalmente creare il nostro primo file TypeScript. Per farlo, creiamo una nuova cartella nel nostro progetto, il nome non è importante.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/b8af730e-fe53-4a79-a0a3-94e54bf691b7)
+
+All'interno di questa cartella, creiamo un nuovo file chiamato `hello_typescript.ts`. Ricorda che il nome del file può essere scelto a tua discrezione, ma è fondamentale assicurarsi che l'estensione sia `.ts` per indicare che si tratta di un file TypeScript.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/e4aeaf83-910e-447c-8373-c84dabf4ace2)
+
+Ora vediamo come possiamo scrivere del codice e convertirlo in JavaScript. Iniziamo con un classico, il console.log. Possiamo utilizzare il console.log per scrivere il nostro nome sulla console. Questo è un codice normale di JavaScript e non ha nulla a che fare con TypeScript.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/b3af91e7-a999-492b-bf8f-e2808812a285)
+
+
+Creiamo anche un paio di variabili. Per esempio, possiamo creare una variabile chiamata "user". Diamo un nome e un'età. Non mettiamo per ora l'email. Più avanti, vogliamo stampare il nome dell'utente utilizzando console.log. Ancora una volta, questo è JavaScript normale, niente di speciale con TypeScript.
+
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/75174054/2ac47ead-9de8-4e32-8093-6018db361104)
+
+Ma attenzione! Il codice che abbiamo scritto non può essere eseguito direttamente in TypeScript. Tuttavia, grazie all'installazione di TypeScript che abbiamo completato in precedenza, possiamo superare questa limitazione. Utilizzando il comando tsc nome_del_tuo_file.ts, possiamo convertire automaticamente il nostro codice TypeScript in un file JavaScript. In questo modo, otteniamo una versione del nostro codice che può essere eseguita correttamente.
+
+L'unico vantaggio di TypeScript è che ci fornisce suggerimenti utili per individuare eventuali errori nel nostro codice, come problemi con le variabili o la sintassi. Ne parleremo in modo più dettagliato in seguito.
