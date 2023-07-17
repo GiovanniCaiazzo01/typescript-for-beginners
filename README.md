@@ -18,7 +18,7 @@ Quindi, è importante sottolineare che Typescript non introduce nuovi costrutti 
 - Typescript si concentra principalmente sulla sicurezza dei tipi. Prendiamo l'esempio di seguito.
 
   
-![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/1.2.png)
+![image](https://github.com/GiovanniCaiazzo01/typescript-for-beginners/assets/1.png)
 
 Javascript permette alcune stranezze nel nostro codice, questo accade perché manca un sistema di sicurezza dei tipi. In realtà, avrebbe dovuto segnalare immediatamente, durante la fase di scrittura, che non possiamo sommare una stringa con un numero. Typescript semplicemente ci permette di prevenire queste stranezze.
 
