@@ -22,7 +22,7 @@ Quindi, è importante sottolineare che Typescript non introduce nuovi costrutti 
 
 Javascript permette alcune stranezze nel nostro codice, questo accade perché manca un sistema di sicurezza dei tipi. In realtà, avrebbe dovuto segnalare immediatamente, durante la fase di scrittura, che non possiamo sommare una stringa con un numero. Typescript semplicemente ci permette di prevenire queste stranezze.
 
-- Scriverai molte più linee di codice in TypeScript rispetto a JavaScript, m.
+- Scriverai molte più linee di codice in TypeScript rispetto a JavaScript.
 
 ## 1.3 - Typescript non è quello che pensi
 
