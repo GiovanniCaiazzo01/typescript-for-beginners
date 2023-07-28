@@ -109,8 +109,17 @@ la fase di scrittura.
 
 ![image](./assets/13.png)
 
+# 4 - Types
+
+Come già spiegato, TypeScript gira tutto attorno ai tipi. La domanda da porsi è: quali tipi sono disponibili?
+
+La documentazione ufficiale di TypeScript inizia parlando dei [dati primitivi](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) (puoi trovare la pagina della documentazione [qui](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean))
+
+Sebbene sia una giustissima divisione quella che la documentazione suggerisce, potrebbe essere utile all'inizio vedere tutti i tipi come un grande insieme, senza distinguere tra dati primitivi, dati moderni o altri tipi di dati."
 
 
-
-
-
+|     |  |
+| -------- | ------- |
+|   |     |
+|  |     |
+|     |     |
