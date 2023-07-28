@@ -117,6 +117,7 @@ La documentazione ufficiale di TypeScript inizia parlando dei [dati primitivi](h
 
 Sebbene sia una giustissima divisione quella che la documentazione suggerisce, potrebbe essere utile all'inizio vedere tutti i tipi come un grande insieme, senza distinguere tra dati primitivi, dati moderni o altri tipi di dati."
 
+di seguito elencati alcuni dei tipi disponibili:
 
 |[string](https://developer.mozilla.org/en-US/docs/Glossary/String)|[number](https://developer.mozilla.org/en-US/docs/Glossary/Number)|
 [|boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)[|null](https://developer.mozilla.org/en-US/docs/Glossary/Null)|
@@ -129,8 +130,11 @@ Sebbene sia una giustissima divisione quella che la documentazione suggerisce, p
 
 ## 4.1 - Type Any
 
+
 Quello che potreste notare in molte codebase che utilizzano TypeScript è che alcuni sviluppatori utilizzano la parola chiave `any`.
 
 Se state usando all'interno del vostro progetto la parola chiave `any`, state intenzionalmente rendendo il codice più vulnerabile e simile a un progetto scritto in semplice JavaScript, poiché l'utilizzo di `any` evita la necessità di specificare i tipi.
 
 Tuttavia, è importante notare che l'utilizzo eccessivo di `any` nega molti dei vantaggi offerti da TypeScript, come il controllo statico dei tipi e la riduzione degli errori durante la fase di sviluppo. Inoltre, può rendere il codice meno mantenibile e più difficile da comprendere per altri sviluppatori che lavorano sullo stesso progetto.
+
+
