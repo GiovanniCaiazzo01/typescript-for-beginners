@@ -109,7 +109,7 @@ la fase di scrittura.
 
 ![image](./assets/13.png)
 
-# 4 - Types
+# 4 - Types 
 
 Come già spiegato, TypeScript gira tutto attorno ai tipi. La domanda da porsi è: quali tipi sono disponibili?
 
